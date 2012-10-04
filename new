@@ -1,0 +1,7 @@
+import csv
+
+def readcsv_harish():
+    with open('board.csv','rb')as f:
+        reader=csv.reader(f)
+        for row in reader:
+            print row
